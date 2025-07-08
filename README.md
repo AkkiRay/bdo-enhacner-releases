@@ -1,70 +1,63 @@
 # 📦 BDO Deborica Enhancer — Загрузка / Downloads
 
-Все файлы текущего релиза — выберите стабильный офлайн-инсталлятор или конфиг для авто-обновления, а также исходники.  
-All files for the current release — choose the stable offline installer or the auto-update config, plus source code.
+Все файлы текущего релиза: **Latest Installer**, **Stable Installer**, а также исходники.  
+All files for the current release: **Latest Installer**, **Stable Installer**, plus source code.
 
 ---
 
-## 🔄 🇷🇺 Latest / 🇺🇸 Latest (Auto-Update)
+## 🆕 🇷🇺 Latest Installer / 🇺🇸 Latest Installer
 
-- **latest.yml** — конфиг для встроенного авто-обновления  
-  [🇷🇺 Скачать latest.yml](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/latest.yml)  
-  [🇺🇸 Download latest.yml](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/latest.yml)
+- **install-bdo-enhancer-latest.exe** — cutting-edge build с встроенным авто-апдейтом  
+  [🇷🇺 Скачать Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/latest/download/install-bdo-enhancer-latest.exe)  
+  [🇺🇸 Download Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/latest/download/install-bdo-enhancer-latest.exe)
 
 ---
 
-## 🛠️ 🇷🇺 Стабильная версия 1.0.2 / 🇺🇸 Stable Release 1.0.2
+## ✅ 🇷🇺 Stable Installer (v1.0.2) / 🇺🇸 Stable Installer (v1.0.2)
 
-- **install-bdo-enhancer-1.0.2.exe** — полный офлайн-инсталлятор  
-  [🇷🇺 Скачать installer (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)  
-  [🇺🇸 Download installer (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)
+- **install-bdo-enhancer-1.0.2.exe** — проверенный стабильный билд с авто-апдейтом  
+  [🇷🇺 Скачать Stable (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)  
+  [🇺🇸 Download Stable (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)
 
 ---
 
 ## 📦 🇷🇺 Исходники / 🇺🇸 Source Code
 
-- [Zip](https://github.com/AkkiRay/bdo-enhacner-releases/archive/refs/tags/v1.0.2.zip)  
-- [Tar.gz](https://github.com/AkkiRay/bdo-enhacner-releases/archive/refs/tags/v1.0.2.tar.gz)
+- [Zip (v1.0.2)](https://github.com/AkkiRay/bdo-enhacner-releases/archive/refs/tags/v1.0.2.zip)  
+- [Tar.gz (v1.0.2)](https://github.com/AkkiRay/bdo-enhacner-releases/archive/refs/tags/v1.0.2.tar.gz)
 
 ---
 
 ## 💾 🇷🇺 Установка / 🇺🇸 Installation Guide
 
-1. **🇷🇺 Новая установка**  
-   - Скачайте **install-bdo-enhancer-1.0.2.exe** и запустите его.  
-   - Следуйте мастеру установки, создадутся ярлыки и папка программы.  
-2. **🇺🇸 Fresh Install**  
-   - Download **install-bdo-enhancer-1.0.2.exe** and run it.  
-   - Follow the setup wizard; shortcuts and program folder will be created.
+1. Скачайте нужный инсталлятор — **Latest** или **Stable**.  
+2. Запустите файл `.exe` и следуйте мастеру установки.  
+3. Ярлыки и папка приложения создадутся автоматически.
+
+1. Download the installer you want — **Latest** or **Stable**.  
+2. Run the `.exe` and follow the setup wizard.  
+3. Shortcuts and the program folder will be created automatically.
 
 ---
 
 ## 🔄 🇷🇺 Авто-обновление / 🇺🇸 In-App Auto-Update
 
-1. При запуске приложение скачивает `latest.yml` и проверяет версию.  
-2. Если доступен апдейт — показывает сплэш с прогресс-баром, скоростью (МБ/с) и ETA.  
-3. Скачивает diff-пакет и перезапускается в новой версии.  
+При каждом запуске приложение:
+1. Загружает `latest.yml` и сверяет версии.  
+2. Если доступно обновление — показывает сплэш с прогресс-баром, скоростью (МБ/с) и ETA.  
+3. Скачивает обновление и перезапускает себя.
 
-1. On launch the app fetches `latest.yml` and checks version.  
-2. If an update is available — shows splash with a progress bar, speed (MB/s) and ETA.  
-3. It downloads the diff-package and relaunches into the new version.
-
----
-
-## 📝 🇷🇺 Изменения / 🇺🇸 Changelog
-
-Полная история правок:  
-➡️ [CHANGELOG.md](https://github.com/AkkiRay/bdo-enhacner-releases/blob/main/CHANGELOG.md)
-
-Full change log:  
-➡️ [CHANGELOG.md](https://github.com/AkkiRay/bdo-enhacner-releases/blob/main/CHANGELOG.md)
+On every launch the app:
+1. Fetches `latest.yml` and compares versions.  
+2. If an update is available — shows a splash with progress bar, speed (MB/s) and ETA.  
+3. Downloads the update and relaunches itself.
 
 ---
 
 ## 🛠️ 🇷🇺 Поддержка / 🇺🇸 Support
 
-Нашли баг или хотите фичу?  
+Нашли баг или хотите предложить фичу?  
 [🐞 Открыть issue](https://github.com/AkkiRay/bdo-enhacner-releases/issues)  
-[🐞 Create an issue](https://github.com/AkkiRay/bdo-enhacner-releases/issues)  
+[🐞 Create an issue](https://github.com/AkkiRay/bdo-enhacner-releases/issues)
 
-Спасибо за вклад! / Thanks for contributing!  
+Спасибо за ваш вклад! / Thanks for contributing!
