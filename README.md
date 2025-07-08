@@ -8,7 +8,7 @@ All files for the current release: **Latest Installer**, **Stable Installer**, p
 ## 🆕 🇷🇺 Latest Installer / 🇺🇸 Latest Installer
 
 - **install-bdo-enhancer-latest.exe** — cutting-edge build с встроенным авто-апдейтом  
-  [Download Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/latest/download/install-bdo-enhancer-latest.exe)
+  [Download Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)
 
 ---
 
