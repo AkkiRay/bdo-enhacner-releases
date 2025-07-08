@@ -1,5 +1,4 @@
 # 📦 BDO Deborica Enhancer — Releases  
-# 📦 BDO Deborica Enhancer — Выпуски
 
 Все официальные сборки приложения: полный инсталлятор, дифференциальный пакет, конфиг авто-апдейта и исходники.  
 All official application builds: full installer, differential package, auto-update config and source code.
