@@ -1,0 +1,45 @@
+# 📦 BDO Deborica Enhancer — Releases
+
+Все официальные сборки приложения и ссылки на установщики.
+
+---
+
+## 🚀 Последние версии
+
+| Версия | Дата       | Установщик                                                                                     | Blockmap                                                                                  | `latest.yml`                                                                                 |
+|:-------|:-----------|:------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
+| **1.0.4** | 2025-07-08 | [BDO-Deborica-Enhancer-Setup-1.0.4.exe](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.4/BDO-Deborica-Enhancer-Setup-1.0.4.exe) | [BDO-Deborica-Enhancer-Setup-1.0.4.exe.blockmap](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.4/BDO-Deborica-Enhancer-Setup-1.0.4.exe.blockmap) | [latest.yml](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.4/latest.yml) |
+| 1.0.3  | 2025-07-07 | [BDO-Deborica-Enhancer-Setup-1.0.3.exe](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.3/BDO-Deborica-Enhancer-Setup-1.0.3.exe) | [BDO-Deborica-Enhancer-Setup-1.0.3.exe.blockmap](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.3/BDO-Deborica-Enhancer-Setup-1.0.3.exe.blockmap) | [latest.yml](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.3/latest.yml) |
+| 1.0.2  | 2025-07-06 | [BDO-Deborica-Enhancer-Setup-1.0.2.exe](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/BDO-Deborica-Enhancer-Setup-1.0.2.exe) | [BDO-Deborica-Enhancer-Setup-1.0.2.exe.blockmap](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/BDO-Deborica-Enhancer-Setup-1.0.2.exe.blockmap) | [latest.yml](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/latest.yml) |
+
+> **Примечание:** Авто-обновление приложения самостоятельно подтянет из `latest.yml` самую новую сборку.
+
+---
+
+## 💾 Установка
+
+1. Скачайте инсталлятор последней версии (`.exe`) из таблицы выше.  
+2. Запустите и следуйте мастеру установки.  
+3. После установки приложение автоматически проверит наличие обновлений при каждом запуске.
+
+---
+
+## 🔄 Авто-обновление
+
+BDO Deborica Enhancer использует встроенный механизм авто-обновления:
+
+- При старте приложения автоматически проверяется файл `latest.yml` на GitHub Releases.  
+- Если вышла новая версия, сплэш-скрин отобразит прогресс загрузки.  
+- После завершения загрузки приложение автоматически перезапустится в актуальной сборке.
+
+---
+
+## 📝 История изменений
+
+Полная история изменений доступна в [CHANGELOG.md](https://github.com/AkkiRay/bdo-enhacner-releases/blob/main/CHANGELOG.md).
+
+---
+
+## 📣 Обратная связь
+
+Если вы нашли баг или у вас есть предложение — пожалуйста, создавайте [issue](https://github.com/AkkiRay/bdo-enhacner-releases/issues). Благодарим за активность!  
