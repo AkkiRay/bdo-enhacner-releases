@@ -21,11 +21,12 @@ All files for the current release: **Latest Installer**, **Stable Installer**, p
 ---
 
 ## 💾 🇷🇺 Установка / 🇺🇸 Installation Guide
-
+Гайд:
 1. Скачайте нужный инсталлятор — **Latest** или **Stable**.  
 2. Запустите файл `.exe` и следуйте мастеру установки.  
 3. Ярлыки и папка приложения создадутся автоматически.
    
+Guid:
 1. Download the installer you want — **Latest** or **Stable**.  
 2. Run the `.exe` and follow the setup wizard.  
 3. Shortcuts and the program folder will be created automatically.
