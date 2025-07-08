@@ -1,34 +1,127 @@
 # 📦 BDO Deborica Enhancer — Releases  
 # 📦 BDO Deborica Enhancer — Выпуски
 
-Все официальные сборки приложения: дифференциальный пакет, полный инсталлятор, конфиг авто-апдейта и исходники.  
-All official app builds: diff-package, full installer, auto-update config & source.
+Все официальные сборки приложения:  
+– Дифференциальный пакет (быстрый апдейт)  
+– Полный инсталлятор (с нуля)  
+– Конфиг авто-апдейта  
+– Исходники для сборки  
+All official app builds:  
+– Diff package (quick patch)  
+– Full installer (fresh install)  
+– Auto-update config  
+– Source code  
 
 ---
 
 ## 🚀 Последняя версия / Latest Release
 
-| Версия / Version | Дата / Date       | 🔄 Дифф. пакет / Diff Package                                                                                                           | 🛠 Полный инсталлятор / Full Installer                                                                                              | 📄 latest.yml                                           |
-|:-----------------|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
-| **X.Y.Z**        | YYYY-MM-DD        | [bdo-enhancer-monitor-X.Y.Z-x64.nsis.7z](URL_7Z) — ~110 MB                                                                              | [install-bdo-enhancer-X.Y.Z.exe](URL_EXE) — ~680 KB                                                                                | [latest.yml](URL_LATEST) — ~600 Bytes                   |
+| Версия / Version | Дата / Date       | 🔄 Diff-пакет / Diff Package                                                                                                             | 🛠 Full installer                                                                                                                     | 📄 latest.yml                                           |
+|:-----------------|:------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
+| **1.0.2**        | 2025-07-06        | [bdo-enhancer-monitor-1.0.2-x64.nsis.7z](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/bdo-enhancer-monitor-1.0.2-x64.nsis.7z) — 110 MB | [install-bdo-enhancer-1.0.2.exe](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/intall-bdo-enhacner-1.0.2.exe) — 679 KB | [latest.yml](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/latest.yml) — 596 Bytes |
 
 > **Примечание / Note:**  
-> — Если вы уже установили предыдущую версию, вы можете запустить дифференциальный пакет, чтобы быстро затянуть изменения.  
-> — Или дождаться автоматического обновления внутри приложения.  
-> — Если у вас чистая установка — загрузите полный инсталлятор.
-
-> If you have the previous version installed, run the diff-package for a quick patch,  
-> or wait for the in-app auto-update.  
-> For a fresh install, download the full installer.
+> – Если вы уже используете предыдущую версию, запустите Diff-пакет для мгновенного обновления.  
+> – Для чистой установки используйте Full installer.  
+> – Авто-апдейт срабатывает при каждом запуске приложения.  
+>  
+> – If you have the previous version installed, run the Diff package for an instant patch.  
+> – For a fresh setup, use the Full installer.  
+> – In-app auto-update runs on every app launch.  
 
 ---
 
-## 💾 Установка / Installation
+## 📥 Установка / Installation Guide
 
-1. **Новая установка / New install**  
-   — Скачайте и запустите полный инсталлятор.  
-   — Download and run the full installer.
+### 🆕 1. Новая установка / Fresh Install  
+1. Скачайте **Full installer**:  
+2. Запустите `.exe` и следуйте мастеру установки.  
+3. Дождитесь окончания процесса: создадутся ярлыки и корневая папка.  
+4. Запустите приложение через меню «Пуск» или ярлык на рабочем столе.  
 
-2. **Обновление / Update**  
-   ```bash
-   bdo-enhancer-monitor-X.Y.Z-x64.nsis.7z
+1. Download the **Full installer**:  
+2. Run the `.exe` and follow the setup wizard.  
+3. Wait until installation completes: shortcuts and program folder will be created.  
+4. Launch the app from Start Menu or desktop shortcut.  
+
+### 🔄 2. Обновление вручную / Manual Update (Diff)  
+1. Закройте запущенное приложение.  
+2. Скачайте **Diff-пакет**:  
+3. Распакуйте содержимое в папку установки (обычно `C:\Users\<You>\AppData\Local\Programs\BDO Deborica Enhancer`).  
+4. Перезапустите приложение — новая версия применена.  
+
+1. Close the running app.  
+2. Download the **Diff package**:  
+3. Extract its contents into the install directory (e.g. `C:\Users\<You>\AppData\Local\Programs\BDO Deborica Enhancer`).  
+4. Relaunch the app — new version is applied.  
+
+---
+
+## 🔄 Авто-обновление / In-App Auto-Update
+
+При каждом старте приложение автоматически:  
+1. Загружает `latest.yml` из GitHub Releases.  
+2. Сверяет локальную версию с удалённой.  
+3. Если есть обновление — показывает сплэш-экран с:  
+- прогресс-баром (%)  
+- объёмом скачанного/итого (МБ)  
+- скоростью (МБ/с) и ETA  
+4. Скачивает Diff-пакет (`.7z`) и сам применяет обновление.  
+5. Перезапускает приложение в актуальной версии.  
+
+On every launch the app automatically:  
+1. Fetches `latest.yml` from GitHub Releases.  
+2. Compares local version with remote.  
+3. If an update exists — shows a splash with:  
+- progress bar (%)  
+- downloaded/total size (MB)  
+- speed (MB/s) & ETA  
+4. Downloads the Diff package (`.7z`) and applies the update.  
+5. Relaunches itself in the up-to-date version.  
+
+---
+
+## ⚙️ Настройки авто-апдейта / Auto-Update Configuration
+
+- **Интервал проверки:** при каждом запуске.  
+- **Silent install:** `/S` для тихой установки без окон NSIS.  
+- **Логирование:** ошибки и статус видны в сплэше, а в консоли выводятся подробности.  
+- **Rollback:** при неудаче авто-обновление пропускается и приложение запускается прежней версии.  
+
+- **Check interval:** every launch.  
+- **Silent install:** uses `/S` flag for NSIS silent mode.  
+- **Logging:** status & errors appear on splash; details in console.  
+- **Rollback:** on failure auto-update is skipped and the old version runs.  
+
+---
+
+## 📝 История изменений / Changelog
+
+Полная история изменений в репозитории:  
+➡️ [CHANGELOG.md](https://github.com/AkkiRay/bdo-enhacner-releases/blob/main/CHANGELOG.md)  
+
+Full change log is maintained here:  
+➡️ [CHANGELOG.md](https://github.com/AkkiRay/bdo-enhacner-releases/blob/main/CHANGELOG.md)  
+
+---
+
+## 🛠️ Решение проблем / Troubleshooting
+
+| Симптом / Symptom                                 | Возможная причина / Cause                  | Решение / Solution                                               |
+|:--------------------------------------------------|:-------------------------------------------|:-----------------------------------------------------------------|
+| Сплэш сразу закрывается без загрузки / Splash closes immediately | нет интернета или GitHub Releases недоступен | Проверьте соединение; откройте [latest.yml](...) в браузере      |
+| Обновление зависает на «Connecting…» / Stuck on “Connecting…” | используется `nsis-web` UI                  | Переключитесь на классический `nsis` или подождите – UI встроен |
+| После обновления приложение не перезапускается / Doesn’t relaunch | silent install не завершился `/S`          | Обновите до `nsis-web` + `quitAndInstall(true,true)`             |
+
+---
+
+## 📣 Обратная связь / Feedback
+
+У вас есть идеи или вы нашли баг?  
+➡️ Откройте [issue](https://github.com/AkkiRay/bdo-enhacner-releases/issues)  
+
+Found a bug or got a feature request?  
+➡️ Create an [issue](https://github.com/AkkiRay/bdo-enhacner-releases/issues)  
+
+Спасибо за вклад!  
+Thanks for contributing!
