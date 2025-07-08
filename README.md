@@ -8,23 +8,15 @@ All files for the current release: **Latest Installer**, **Stable Installer**, p
 ## 🆕 🇷🇺 Latest Installer / 🇺🇸 Latest Installer
 
 - **install-bdo-enhancer-latest.exe** — cutting-edge build с встроенным авто-апдейтом  
-  [🇷🇺 Скачать Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/latest/download/install-bdo-enhancer-latest.exe)  
-  [🇺🇸 Download Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/latest/download/install-bdo-enhancer-latest.exe)
+  [Download Latest](https://github.com/AkkiRay/bdo-enhacner-releases/releases/latest/download/install-bdo-enhancer-latest.exe)
 
 ---
 
 ## ✅ 🇷🇺 Stable Installer (v1.0.2) / 🇺🇸 Stable Installer (v1.0.2)
 
 - **install-bdo-enhancer-1.0.2.exe** — проверенный стабильный билд с авто-апдейтом  
-  [🇷🇺 Скачать Stable (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)  
-  [🇺🇸 Download Stable (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)
+  [Download Stable (78 MB)](https://github.com/AkkiRay/bdo-enhacner-releases/releases/download/v1.0.2/install-bdo-enhancer-1.0.2.exe)
 
----
-
-## 📦 🇷🇺 Исходники / 🇺🇸 Source Code
-
-- [Zip (v1.0.2)](https://github.com/AkkiRay/bdo-enhacner-releases/archive/refs/tags/v1.0.2.zip)  
-- [Tar.gz (v1.0.2)](https://github.com/AkkiRay/bdo-enhacner-releases/archive/refs/tags/v1.0.2.tar.gz)
 
 ---
 
