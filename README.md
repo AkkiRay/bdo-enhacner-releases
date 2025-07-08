@@ -1,7 +1,7 @@
 # 📦 BDO Deborica Enhancer — Загрузка / Downloads
 
-Все файлы текущего релиза: **Latest Installer**, **Stable Installer**, а также исходники.  
-All files for the current release: **Latest Installer**, **Stable Installer**, plus source code.
+Все файлы текущего релиза: **Latest Installer**, **Stable Installer**.  
+All files for the current release: **Latest Installer**, **Stable Installer**.
 
 ---
 
